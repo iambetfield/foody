@@ -60,6 +60,7 @@ const Cart = () => {
     <Fragment>
       <main className="lg:flex justify-between">
         <section className="lg:w-[30%] space-y-6 min-h-screen pt-10">
+          <h1 className="font-semibold text-2xl text-center">Mi orden</h1>
           <div className="space-y-6">
             {cartItems.map(() => (
               <CartItem />

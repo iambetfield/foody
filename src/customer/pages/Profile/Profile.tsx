@@ -9,13 +9,13 @@ import UserPayment from './UserPayment'
 
 const Profile = () => {
   return (
-    <div className='lg:flex'>
-        <div className='lg:w-[20%]'>
+    <div className='sm:flex'>
+        <div className='sm:w-[30%] hidden sm:block'>
             <ProfileNav />
 
         </div>
         <Divider orientation='vertical' flexItem/>
-        <div className='lg:w-[80%]'>
+        <div className='sm:w-[80%]'>
             <Routes>
                 <Route path="/" element={<UserProfile />} />
                 <Route path="/orders" element={<Orders/>} />

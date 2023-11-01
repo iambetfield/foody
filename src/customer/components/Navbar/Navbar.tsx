@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="px-5 z-50 py-[.7rem] bg-[#e91e63] lg:px-20 flex justify-between">
+    <nav className="px-5 z-50 py-[.7rem] bg-[#e91e63] lg:px-20 flex justify-between w-full">
       <div className="flex items-center space-x-4">
         <div
           className="lg:mr-10 cursor-pointer flex items-center space-x-4"
@@ -45,7 +45,7 @@ const Navbar = () => {
         <IconButton>
           <SearchIcon sx={{ fontSize: "1.5rem" }} />
         </IconButton>
-        {false ? (
+        {true ? (
           <span
             id="basic-button"
             aria-controls={openMenu ? "basic-menu" : undefined}
@@ -74,10 +74,13 @@ const Navbar = () => {
           <MenuItem onClick={() => {
             navigate("/myprofile"); 
             handleCloseMenu()
-            }}>Profile</MenuItem>
-          <MenuItem onClick={handleCloseMenu}>My account</MenuItem>
-          <MenuItem onClick={handleLogout}>Logout</MenuItem>
+            }}>Mi Cuenta</MenuItem>
+          <MenuItem onClick={()=>{navigate("/myprofile/orders"); handleCloseMenu()}}>Mis Pedidos</MenuItem>
+          <MenuItem onClick={()=>{navigate("/myprofile/favorites"); handleCloseMenu()}}>Favoritos</MenuItem>
+          <MenuItem onClick={handleCloseMenu}>Pagos</MenuItem>
+          <MenuItem onClick={handleLogout}>Cerrar Cesión</MenuItem>
         </Menu>
+
         <IconButton onClick={()=>navigate("/cart")}>
           <ShoppingCartIcon sx={{ fontSize: "1.5rem" }} />
         </IconButton>

@@ -6,18 +6,19 @@ import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 const CartItem = () => {
   return (
     <div className='px-5'>
-        <div className='lg:flex items-center lg:space-x-5'>
+       
+        <div className='flex items-center space-x-5'>
             <div>
                 <img className='w-[5rem] h-[5rem] object-cover rounded' 
                 src='https://images.pexels.com/photos/8951038/pexels-photo-8951038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                 alt=''
                 />
             </div>
-            <div className='flex items-center justify-between lg:w-[70%]'>
+            <div className='flex items-center justify-between w-[80%]'>
                 <div className='space-y-1 lg:space-y-3 w-full'>
-                    <p className='text-gray-300 pl-2'>Sashimi</p>
+                    <p className='text-gray-300 pl-3'>Sashimi</p>
                     <div className='flex justify-between items-center'>
-                        <div className='flex items-center space-x-1'>
+                        <div className='flex items-center text-center space-x-1'>
                             <IconButton color='primary'>
                                 <RemoveCircleOutlineIcon />
                             </IconButton>

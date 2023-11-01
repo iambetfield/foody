@@ -16,6 +16,7 @@ const OrderCard = ({item}:OrderCardProps) => {
                 <p className='text-gray-400'>$2990</p>
             </div>
         </div>
+        
         <div>
             <Button variant='outlined'>Seguir</Button>
         </div>
