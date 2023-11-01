@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const navigateToProfile = () => {
     navigate("/myprofile");
+    handleCloseMenu()
   };
 
   const handleOpenMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -24,6 +25,8 @@ const Navbar = () => {
 
   const handleLogout = () => {
     console.log("logout");
+    handleCloseMenu();
+    navigate("/")
   };
 
   return (
@@ -42,7 +45,7 @@ const Navbar = () => {
         <IconButton>
           <SearchIcon sx={{ fontSize: "1.5rem" }} />
         </IconButton>
-        {true ? (
+        {false ? (
           <span
             id="basic-button"
             aria-controls={openMenu ? "basic-menu" : undefined}
@@ -68,7 +71,10 @@ const Navbar = () => {
             "aria-labelledby": "basic-button",
           }}
         >
-          <MenuItem onClick={() => navigate("/myprofile")}>Profile</MenuItem>
+          <MenuItem onClick={() => {
+            navigate("/myprofile"); 
+            handleCloseMenu()
+            }}>Profile</MenuItem>
           <MenuItem onClick={handleCloseMenu}>My account</MenuItem>
           <MenuItem onClick={handleLogout}>Logout</MenuItem>
         </Menu>

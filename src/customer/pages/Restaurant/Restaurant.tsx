@@ -48,7 +48,7 @@ const handleFoodTypeChange = () => {
             </div>
         </section>
         <Divider />
-        <section className='pt-[2rem] lg:flex relative'>
+        <section className='pt-[2rem] lg:flex relative pb-[2rem]'>
             <div className='space-y-10 lg:w-[20%]'>
                 <Card className='space-y-5 lg:sticky top-28 p-5'>
                     <div>
@@ -90,7 +90,8 @@ const handleFoodTypeChange = () => {
                     </div>             
                 </Card>
             </div>
-            <div className='lg:w-[80%] space-y-5 lg:pl-1'>
+
+            <div className='lg:w-[80%] space-y-5 lg:pl-1 mt-5'>
                 {menu.map((item:any)=>
                 <MenuItemCard item={item}/>
                 )}
