@@ -17,14 +17,16 @@ const menu = [1,1,1,1,1,1];
 
 const Restaurant = () => {
 
-const [selectedCategory, setSelectedCategory] = useState();
-const [selectedFoodType, setSelectedFoodType] = useState();
+const [selectedCategory, setSelectedCategory] = useState("");
+const [selectedFoodType, setSelectedFoodType] = useState("");
 
 const handleCategoryChange = ()=> {
+    setSelectedCategory("");
     console.log("selected Category: ", selectedCategory);
 }
 
 const handleFoodTypeChange = () => {
+    setSelectedFoodType("");
     console.log("selected FoodType: ", selectedFoodType);
 }
 
