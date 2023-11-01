@@ -1,5 +1,5 @@
 import { Button, Card } from '@mui/material'
-import React from 'react'
+
 
 interface MenuItemProps {
     item: any
@@ -18,7 +18,7 @@ const MenuItemCard = ({item}: MenuItemProps) => {
             <img className='w-[7rem] h-[7rem] object-cover' src='https://images.pexels.com/photos/8951038/pexels-photo-8951038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt=''/>
             <div className='space-y-1 lg:space-y-5 lg:max-w-2xl'>
                 <p className='font-semibold text-xl'>{`Sashimi`}</p>
-                <p>${`2990`}</p>
+                <p>${item.price}</p>
                 <p className='text-gray-400'>{`Salmon Rosado`}</p>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import RestaurantCard from '../Homepage/RestaurantCard';
 import { restaurants } from '../../../types/types';
 

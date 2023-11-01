@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AddressCard from '../Cart/AddressCard';
 
 const adressess = [1,1,1];

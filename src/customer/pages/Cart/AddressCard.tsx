@@ -10,9 +10,9 @@ interface AddressCardProps {
 
 const AddressCard = ({handleSelectedAddress, item, showButton} : AddressCardProps) => {
 
-    const handleSelectAddress = ()=> {
+    /* const handleSelectAddress = ()=> {
         console.log("handle Select Address")
-    }
+    } */
 
 
   return (

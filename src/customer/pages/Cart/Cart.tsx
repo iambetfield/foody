@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useState } from "react";
 import CartItem from "./CartItem";
 import { Box, Button, Card, Divider, Grid, Modal, TextField } from "@mui/material";
 import AddressCard from "./AddressCard";
@@ -61,7 +61,7 @@ const Cart = () => {
       <main className="lg:flex justify-between">
         <section className="lg:w-[30%] space-y-6 min-h-screen pt-10">
           <div className="space-y-6">
-            {cartItems.map((item) => (
+            {cartItems.map(() => (
               <CartItem />
             ))}
           </div>

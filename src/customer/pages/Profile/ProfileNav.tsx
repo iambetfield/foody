@@ -3,7 +3,6 @@ import FavoriteIcon from '@mui/icons-material/Favorite'
 import HomeIcon from '@mui/icons-material/Home'
 import AccountBalanceWallteIcon from '@mui/icons-material/AccountBalanceWallet'
 import LogoutIcon from '@mui/icons-material/Logout'
-import { Divider } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import ProfileNav from './ProfileNav'
 import { Divider } from '@mui/material'
 import { Route, Routes } from 'react-router-dom'
