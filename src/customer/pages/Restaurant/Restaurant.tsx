@@ -1,5 +1,5 @@
 import { Card, Divider, FormControl, FormControlLabel, Radio, RadioGroup, Typography } from '@mui/material'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import MenuItemCard from './MenuItemCard';
 
 const categories = [
