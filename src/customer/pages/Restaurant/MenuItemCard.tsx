@@ -15,7 +15,7 @@ const MenuItemCard = ({item}: MenuItemProps) => {
   return (
     <Card className='p-3 lg:flex items-center'>
         <div className='flex items-center lg:space-x-5 w-[100%]'>
-            <img className='w-[7rem] h-[7rem] rounded object-cover' src='https://images.pexels.com/photos/8951038/pexels-photo-8951038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt=''/>
+            <img className=' w-[5rem] h-[5rem]  sm:w-[7rem] sm:h-[7rem] object-cover' src='https://images.pexels.com/photos/8951038/pexels-photo-8951038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt=''/>
             <div className='space-y-1 lg:space-y-5 lg:max-w-2xl pl-3 w-[80%]'>
                 <p className='font-semibold text-xl'>{`Sashimi`}</p>
                 <p>${item.price}</p>

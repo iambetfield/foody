@@ -33,22 +33,22 @@ const handleFoodTypeChange = () => {
   return (
     <div className='px-5 lg:px-20'>
         <section>
-            <h3 className='text-gray-500 py-2 mt-10'>
+            <h3 className='text-gray-500 py-2 mt-5'>
                 {`Home / Rosario / Dashi Sushi / 2 / Order Online`}
             </h3>
             <div>
-                <img className='h-[40vh] w-[100%] object-cover' src='https://www.lewisginter.org/wp-content/uploads/2018/04/sushi-2853382_1920-Banner-Crop.jpg' alt=''/>
+                <img className='h-[20vh] sm:h-[40vh] w-[100%] object-cover' src='https://www.lewisginter.org/wp-content/uploads/2018/04/sushi-2853382_1920-Banner-Crop.jpg' alt=''/>
             </div>
             <div>
-                <h1 className='text-4xl py-1 font-semibol'>{`Dashi Sushi`}</h1>
+                <h1 className='text-4xl py-5 font-semibol'>{`Dashi Sushi`}</h1>
                 <p className='text-gray-500'>           
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur explicabo autem molestias tempore alias sint quia praesentium porro voluptate?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur explicabo autem molestias.
                 </p>
                 <p className='py-3 text-orange-300'>Abierto ahora 10:30 am - 00:00</p>
             </div>
         </section>
         <Divider />
-        <section className='pt-[2rem] lg:flex relative pb-[2rem]'>
+        <section className='pt-[1rem] lg:flex relative pb-[2rem]'>
             <div className='space-y-10 lg:w-[20%]'>
                 <Card className='space-y-5 lg:sticky top-28 p-5'>
                     <div>
