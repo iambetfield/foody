@@ -16,7 +16,7 @@ const RestaurantCard = ({ item, index }: RestaurantProps) => {
   };
 
   return (
-    <Card className="m-5 w-[9rem] h-[9rem]  sm:w-[18rem] sm:h-[16rem] productCard pb-1">
+    <Card className="m-3 w-[10rem] h-[10rem]  sm:w-[18rem] sm:h-[16rem] productCard pb-1">
       <div onClick={() =>navigate(`/restaurant/${item.city}/${item.name}/${index+1}`)} >
         <img  
           src={item.imageUrl}

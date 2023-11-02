@@ -22,7 +22,7 @@ const CartItem = () => {
                             <IconButton color='primary'>
                                 <RemoveCircleOutlineIcon />
                             </IconButton>
-                            <div className='w-5 h-5 text-xs'>
+                            <div className='w-5 h-5 text-xs text-center items-center'>
                                 5
                             </div>
                             <IconButton color='primary'>

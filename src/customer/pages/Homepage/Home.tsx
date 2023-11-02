@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <div className="cover absolute top-0 left-0 right-0"></div>
       </section>
-      <section className="py-10">
+      <section className="py-6">
         <div className="">
           <p className="text-2xl font-semibold text-gray-400 py-3 pb-10 px-5">
             Que pedimos hoy
