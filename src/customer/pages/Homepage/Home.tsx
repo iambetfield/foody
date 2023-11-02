@@ -15,17 +15,17 @@ const Home = () => {
         </div>
         <div className="cover absolute top-0 left-0 right-0"></div>
       </section>
-      <section className="p-10 lg:py-10 lg:px-20">
+      <section className="py-10">
         <div className="">
-          <p className="text-2xl font-semibold text-gray-400 py-3 pb-10">
-            Comidas Top
+          <p className="text-2xl font-semibold text-gray-400 py-3 pb-10 px-5">
+            Que pedimos hoy
           </p>
         </div>
         <MultipleItemCarrousel />
       </section>
-      <section className="px-5 lg:px-20">
+      <section className="">
         <div className="">
-          <h1 className="text-2xl font-semibold text-gray-400 py-3">
+          <h1 className="text-2xl font-semibold text-gray-400 py-3 px-5">
             Restaurantes
           </h1>
           <div className="flex flex-wrap flex-row items-center justify-around">

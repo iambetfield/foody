@@ -16,15 +16,15 @@ const RestaurantCard = ({ item, index }: RestaurantProps) => {
   };
 
   return (
-    <Card className="m-5 w-[7rem] h-[7rem]  sm:w-[18rem] sm:h-[16rem] productCard">
+    <Card className="m-5 w-[9rem] h-[9rem]  sm:w-[18rem] sm:h-[16rem] productCard pb-1">
       <div onClick={() =>navigate(`/restaurant/${item.city}/${item.name}/${index+1}`)} >
         <img  
           src={item.imageUrl}
-          className="w-full h-[3rem] sm:h-[10rem] rounded-t-md object-cover cursor-pointer"
+          className="w-full h-[6rem] sm:h-[10rem] rounded-t-md object-cover cursor-pointer"
           alt=""
         />
       </div>
-      <div className="p-2 sm:p-4 textPart sm:flex w-full justify-between">
+      <div className="p-2 textPart flex w-full justify-between">
         <div className="space-y-1">
           <p className="font-sembibold text-sm sm:text-lg">{item.name}</p>
           <p className="text-gray-500 text-sm hidden sm:block">

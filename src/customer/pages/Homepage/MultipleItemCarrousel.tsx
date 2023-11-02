@@ -23,7 +23,7 @@ const MultipleItemCarrousel = () => {
           
         };
         return (
-         <div>
+         <div className="w-[100%]">
             <Slider {...settings}>
                 {topMeals.map((item:any)=>
                 <CarrouselItem image={item.image} title={item.title} />
